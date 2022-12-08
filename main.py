@@ -3,9 +3,9 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(layout="wide")
-st.title('Schools in New York based on your Preferences:')
+st.title('Schools in New York')
 
-st.sidebar.title("Filters:")
+st.sidebar.title("Select your Preferences:")
 
 def loadata():
     data = pd.read_excel('data/data.xlsx', index_col=None)
