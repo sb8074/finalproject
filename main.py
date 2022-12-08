@@ -51,7 +51,7 @@ for index, row in data.iterrows():
                                     hover_name=datamap["school_name"],
                                     color_discrete_sequence=["blue"],
                                     zoom=11,
-                                    height=300, width = 200
+                                    height=400, width = 400
                                     )
             fig.update_layout(mapbox_style="open-street-map")
             fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
