@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(layout="wide")
-st.title('Schools in New York based on your Preferences')
+st.title('Schools in New York based on your Preferences:')
 
 st.sidebar.title("Filters:")
 
